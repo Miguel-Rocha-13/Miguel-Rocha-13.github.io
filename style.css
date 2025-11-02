@@ -1,0 +1,101 @@
+body{
+    font-family: 'Roboto','segoe ui', sans-serif;
+    font-weight: 400; /* Roboto Regular */
+    background-color: black;
+    color: white;
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+#foto_perfil{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#nombre{
+    font-size: 26px;
+    font-weight: 900; /* Roboto Black */
+    margin: 0 auto;
+    text-align: center;
+}
+
+#profesion{
+    font-size: 16px;
+    font-weight: 400; /* Roboto Regular */
+    text-align: center;
+    margin: 0 auto;
+}
+
+#descripcion{
+    width: 400px;
+    margin: 20px auto;
+    text-align: justify;
+    font-weight: 400; /* Roboto Regular */
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#contenedor{
+    margin: 50px;
+}
+
+.enlaces{
+    width: 400px;
+    height: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+
+}
+
+.enlaces a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+h3{
+    text-align: center;
+    color: rgb(241, 241, 241);
+    font-size: 20px;
+    font-weight: 500; /* Roboto Medium */
+}
+
+.img-enlaces{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.enlaces a span{
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    #descripcion{
+        width: 90%;
+    }
+
+    .enlaces{
+        width: 90%;
+    }
+
+    #contenedor{
+        margin: 20px;
+    }
+}
