@@ -139,6 +139,17 @@ h3{
     }
 }
 
+@media (max-width: 600px) {
+    #descripcion, .enlaces {
+        width: 90%;
+    }
+
+    #contenedor {
+        margin: 20px 0;
+    }
+}
+
+
 
 
 
