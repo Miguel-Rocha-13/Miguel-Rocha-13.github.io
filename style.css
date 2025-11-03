@@ -7,8 +7,12 @@ body{
 
 span{
     padding: 10px;
+    border-radius: 4px;
 }
 
+a{
+    border-radius: 4px; 
+}
 .enlaces {
     width: 400px;
     height: 20px;
@@ -127,6 +131,7 @@ h3{
         margin: 20px;
     }
 }
+
 
 
 
