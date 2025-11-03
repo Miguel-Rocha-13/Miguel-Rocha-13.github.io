@@ -118,19 +118,27 @@ h3{
     text-align: center;
 }
 
-@media (max-width: 600px) {
-    #descripcion{
-        width: 90%;
-    }
+/* Animations */
 
-    .enlaces{
-        width: 90%;
+@keyframes neon-pulse {
+    0%, 100% { 
+    box-shadow: 
+        0 0 20px #2323FF,
+        0 0 40px #2323FF,
+        0 0 60px #2323FF,
+        0 0 80px #2323FF,
+        inset 0 0 1000px #fff;
     }
-
-    #contenedor{
-        margin: 20px;
+    50% { 
+        box-shadow: 
+        0 0 30px #2323FF,
+        0 0 50px #2323FF,
+        0 0 70px #2323FF,
+        0 0 100px #2323FF,
+        inset 0 0 1000px #fff;
     }
 }
+
 
 
 
